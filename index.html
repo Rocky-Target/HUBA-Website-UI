@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HUBA Nepal landing-page UI recreation for learning purposes.">
+  <title>HUBA Nepal | Official-style Landing Page UI</title>
+  <link rel="preconnect" href="https://static.wixstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">
+    <span>TIHAR SPECIAL</span>
+    <span class="announcement-divider">•</span>
+    <span>UP TO 25% OFF</span>
+    <span class="announcement-divider">•</span>
+    <span>WORLDWIDE DOOR-TO-DOOR DELIVERY</span>
+  </div>
+
+  <header class="header">
+    <button class="mobile-menu" aria-label="Open navigation"><span></span><span></span><span></span></button>
+    <nav class="nav nav-left" aria-label="Main navigation">
+      <a href="#new-arrivals">NEW RELEASES</a>
+      <a href="#top-wear">TOP WEAR</a>
+      <a href="#bottom-wear">BOTTOM WEAR</a>
+      <a href="#outer-wear">OUTER WEAR</a>
+      <a href="#accessories">ACCESSORIES</a>
+    </nav>
+
+    <a class="brand" href="#" aria-label="HUBA homepage">
+      <span class="brand-symbol"><i></i><b></b></span>
+      <span class="brand-name">HUBA</span>
+    </a>
+
+    <nav class="nav nav-right" aria-label="Shop navigation">
+      <a href="#services">OUR STORY</a>
+      <a href="#stores">OUR STORES</a>
+      <button class="header-icon" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+      </button>
+      <button class="header-icon bag" aria-label="Shopping bag">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 13H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+        <span class="bag-count">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Main visual uses an official HUBA campaign image. -->
+    <section class="hero" aria-label="The Pre Fall Edit">
+      <img
+        class="hero-image"
+        src="https://static.wixstatic.com/media/7b7534_d85d309079ca407f9de87cec5f675d4a~mv2.png/v1/fill/w_1920%2Ch_1080%2Cal_c%2Cq_90%2Cenc_avif%2Cquality_auto/HubaStreetwearDesktop.png"
+        alt="HUBA streetwear campaign"
+        fetchpriority="high">
+      <div class="hero-caption">
+        <p class="hero-kicker">HUBA PRESENTS</p>
+        <h1>THE PRE FALL EDIT</h1>
+        <p class="hero-description">Must-have essentials for the season.</p>
+        <a class="outline-button" href="#pre-fall">DISCOVER THE COLLECTION <span>↗</span></a>
+      </div>
+      <a class="hero-scroll" href="#pre-fall">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="pre-fall section" id="pre-fall">
+      <div class="section-intro">
+        <p class="section-label">HUBA / COLLECTION 01</p>
+        <h2>THE PRE FALL EDIT</h2>
+        <p class="intro-description">The edited line of pieces perfect for the transitional season. From puffer outerwear and distressed denims, HUBA has perfected the must-have essentials for fall.</p>
+        <a class="underlined-link" href="#new-arrivals">DISCOVER THE COLLECTION <span>↗</span></a>
+      </div>
+      <div class="product-grid four-column" id="outer-wear">
+        <article class="product-card">
+          <a class="product-image" href="#outer-wear"><img src="https://static.wixstatic.com/media/e1f805_57fa3fbdd06f47c2a9e581030e2eaea3~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA Mono Puffer Jacket in black"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Mono Puffer Jacket</h3><p>Olive Green</p></div><button class="heart" aria-label="Add HUBA Mono Puffer Jacket to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 4,100.00</del><strong> NPR 3,280.00</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="#outer-wear"><img src="https://static.wixstatic.com/media/e1f805_163de74d33f44405bfe8b298ef7c4dcd~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA Vortex Puffer Jacket in blue"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Bluedge Puffer Jacket</h3><p>Frost</p></div><button class="heart" aria-label="Add HUBA Bluedge Puffer Jacket to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 4,950.00</del><strong> NPR 3,712.50</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="#outer-wear"><img src="https://static.wixstatic.com/media/e1f805_3413116577664ad3a194105f46340d2d~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA statement jacket"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Halo Bomber Jacket</h3><p>Grey</p></div><button class="heart" aria-label="Add HUBA Halo Bomber Jacket to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 3,800.00</del><strong> NPR 2,850.00</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="#outer-wear"><img src="https://static.wixstatic.com/media/e1f805_3045b558416548cfaecfe1478a9ec458~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA Waffle Hoodie in cream"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Waffle Hoodie</h3><p>Cream</p></div><button class="heart" aria-label="Add HUBA Waffle Hoodie to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 3,350.00</del><strong> NPR 3,015.00</strong></p>
+        </article>
+      </div>
+      <a class="center-link" href="https://www.hubanepal.com/fw-collection">VIEW ALL OUTER WEAR <span>↗</span></a>
+    </section>
+
+    <section class="products-section section" id="new-arrivals">
+      <div class="section-title-row">
+        <div><p class="section-label">FRESH FROM HUBA</p><h2>NEW ARRIVALS</h2></div>
+        <a class="underlined-link" href="https://www.hubanepal.com/new">VIEW ALL <span>↗</span></a>
+      </div>
+      <div class="product-grid four-column" id="top-wear">
+        <article class="product-card">
+          <a class="product-image" href="#top-wear"><img src="https://static.wixstatic.com/media/e1f805_5f294b6a89ac4127bf2182923c870b5f~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA Lost Track white T-shirt"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Feral T-shirt</h3><p>Black</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 2,350.00</del><strong> NPR 2,232.50</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="#top-wear"><img src="https://static.wixstatic.com/media/539a77_7841602795b04ed583411f0410257a6e~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_auto/539a77_7841602795b04ed583411f0410257a6e~mv2.jpg" alt="HUBA green oversized T-shirt"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Blume T-shirt</h3><p>Green</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 2,300.00</del><strong> NPR 2,185.00</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="#top-wear"><img src="https://static.wixstatic.com/media/e1f805_65875832907b48119f67acdfc80dd53d~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA waffle hoodie"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Waffle Hoodie</h3><p>Cream</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 3,350.00</del><strong> NPR 3,015.00</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="#top-wear"><img src="https://static.wixstatic.com/media/ade5b9_546cb73042b446b499ba2c653cf9d84b~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_auto/ade5b9_546cb73042b446b499ba2c653cf9d84b~mv2.jpg" alt="HUBA men's charcoal shirt"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Classic T-shirt</h3><p>Charcoal</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 1,950.00</del><strong> NPR 1,852.50</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="trendings section">
+      <div class="section-title-row">
+        <div><p class="section-label">MOST-LOVED PIECES</p><h2>TRENDINGS</h2></div>
+        <a class="underlined-link" href="https://www.hubanepal.com/shop">VIEW ALL <span>↗</span></a>
+      </div>
+      <div class="product-grid four-column">
+        <article class="product-card">
+          <a class="product-image" href="#trendings"><img src="https://static.wixstatic.com/media/e1f805_0f0db000cbb14a9ba5c6eb79907f92db~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA Wavy Bomber Jacket"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Wavy Bomber</h3><p>Mint Green</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 4,500.00</del><strong> NPR 3,825.00</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="#trendings"><img src="https://static.wixstatic.com/media/e1f805_b0b6b84dbf5a4c5582721df80485640b~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA Nexus Jacket"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Nexus Jacket</h3><p>Black &amp; Red</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 4,500.00</del><strong> NPR 3,825.00</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="#trendings"><img src="https://static.wixstatic.com/media/ade5b9_28213e2558c14b69a7f35f7f44630cf7~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_auto/ade5b9_28213e2558c14b69a7f35f7f44630cf7~mv2.jpg" alt="HUBA women's beige outfit"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Zenith Tunic</h3><p>Beige</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 2,700.00</del><strong> NPR 2,295.00</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="#trendings"><img src="https://static.wixstatic.com/media/e1f805_ff5ca509ffe84e238591b6f7d6afdccd~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA brown sweatshirt set"><span class="sale-label">DASHAIN OFFER</span><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Essentials</h3><p>Brown</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 3,500.00</del><strong> NPR 2,975.00</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="campaign-banner simulation">
+      <img src="https://static.wixstatic.com/media/7b7534_d85d309079ca407f9de87cec5f675d4a~mv2.png/v1/fill/w_1920%2Ch_1080%2Cal_c%2Cq_90%2Cenc_avif%2Cquality_auto/HubaStreetwearDesktop.png" alt="HUBA Simulation and streetwear campaign">
+      <div class="banner-copy"><p class="section-label">HUBA / CAMPAIGN</p><h2>HUBA<br>SIMULATION</h2><a class="outline-button" href="https://www.hubanepal.com/new">DISCOVER MORE <span>↗</span></a></div>
+    </section>
+
+    <section class="campaign-banner kids-banner">
+      <img src="https://static.wixstatic.com/media/0634c1_76e1219cff7c4bf0902e3ab7f7a56904~mv2.jpg/v1/fill/w_1800%2Ch_1013%2Cal_c%2Cq_90%2Cenc_avif%2Cquality_auto/A7404268.jpg" alt="HUBA Kids summer campaign">
+      <div class="banner-copy banner-copy-right"><p class="section-label">MADE FOR THE NEXT GENERATION</p><h2>HUBA KIDS</h2><a class="outline-button" href="https://www.hubanepal.com/shop">DISCOVER MORE <span>↗</span></a></div>
+    </section>
+
+    <section class="three-campaigns section">
+      <a href="https://www.hubanepal.com/fw-collection" class="mini-campaign">
+        <img src="https://static.wixstatic.com/media/e1f805_57fa3fbdd06f47c2a9e581030e2eaea3~mv2.jpg/v1/fill/w_900%2Ch_1125%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA winter collection">
+        <span class="mini-campaign-title">WINTER COLLECTION</span><span class="mini-campaign-link">DISCOVER THE COLLECTION ↗</span>
+      </a>
+      <a href="https://www.hubanepal.com/new" class="mini-campaign">
+        <img src="https://static.wixstatic.com/media/7b7534_d85d309079ca407f9de87cec5f675d4a~mv2.png/v1/fill/w_900%2Ch_506%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/HubaStreetwearDesktop.png" alt="HUBA new drop">
+        <span class="mini-campaign-title">NEW DROP</span><span class="mini-campaign-link">DISCOVER THE COLLECTION ↗</span>
+      </a>
+      <a href="https://www.hubanepal.com/ss-collection" class="mini-campaign">
+        <img src="https://static.wixstatic.com/media/539a77_7841602795b04ed583411f0410257a6e~mv2.jpg/v1/fill/w_900%2Ch_1125%2Cal_c%2Cq_85%2Cenc_auto/539a77_7841602795b04ed583411f0410257a6e~mv2.jpg" alt="HUBA summer collection">
+        <span class="mini-campaign-title">SUMMER COLLECTION</span><span class="mini-campaign-link">DISCOVER THE COLLECTION ↗</span>
+      </a>
+    </section>
+
+    <section class="products-section section" id="bottom-wear">
+      <div class="section-title-row">
+        <div><p class="section-label">THE FINISHING TOUCH</p><h2>ACCESSORIES</h2></div>
+        <a class="underlined-link" href="https://www.hubanepal.com/shop">SHOP ACCESSORIES <span>↗</span></a>
+      </div>
+      <div class="product-grid four-column">
+        <article class="product-card">
+          <a class="product-image" href="https://www.hubanepal.com/shop"><img src="https://static.wixstatic.com/media/e1f805_0f0db000cbb14a9ba5c6eb79907f92db~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA accessories styling"><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Grit Cap</h3><p>Yellow</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 1,500.00</del><strong> NPR 1,425.00</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="https://www.hubanepal.com/shop"><img src="https://static.wixstatic.com/media/e1f805_65875832907b48119f67acdfc80dd53d~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA casual wear styling"><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Vault Sling</h3><p>Black</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 2,300.00</del><strong> NPR 2,185.00</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="https://www.hubanepal.com/shop"><img src="https://static.wixstatic.com/media/e1f805_3045b558416548cfaecfe1478a9ec458~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA neutral outfit"><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Thrive Bag</h3><p>Brown</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 3,600.00</del><strong> NPR 2,700.00</strong></p>
+        </article>
+        <article class="product-card">
+          <a class="product-image" href="https://www.hubanepal.com/shop"><img src="https://static.wixstatic.com/media/e1f805_1619951091b74a1192452ce74f50b075~mv2.jpg/v1/fill/w_700%2Ch_875%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/e1f805_1619951091b74a1192452ce74f50b075~mv2.jpg" alt="HUBA grey essentials"><span class="quick-view">QUICK VIEW</span></a>
+          <div class="product-info"><div><h3>HUBA Everyday</h3><p>Grey</p></div><button class="heart" aria-label="Add to favourites">♡</button></div>
+          <p class="product-price"><del>NPR 2,600.00</del><strong> NPR 2,470.00</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="fragrance">
+      <div class="fragrance-copy">
+        <p class="section-label">A SCENT OF YOUR OWN</p>
+        <h2>SOLARIN<br>&amp; LUNARIS</h2>
+        <p>HUBA's first perfume collection, crafted in Nepal. Inspired by the sun and moon, Solarin brings warmth and bold freshness, while Lunaris reflects depth, calm, and quiet sophistication.</p>
+        <a class="underlined-link" href="https://www.hubanepal.com/shop">DISCOVER THE FRAGRANCES <span>↗</span></a>
+      </div>
+      <img src="https://static.wixstatic.com/media/e1f805_0f0db000cbb14a9ba5c6eb79907f92db~mv2.jpg/v1/fill/w_1000%2Ch_1000%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/file.jpg" alt="HUBA campaign photography">
+    </section>
+
+    <section class="stores section" id="stores">
+      <div class="section-title-row">
+        <div><p class="section-label">VISIT US IN PERSON</p><h2>FLAGSHIP STORES</h2></div>
+        <a class="underlined-link" href="https://www.hubanepal.com/contact">ALL STORES <span>↗</span></a>
+      </div>
+      <div class="store-grid">
+        <article><span>01 / KATHMANDU</span><h3>KATHMANDU</h3><p>Bhanimandal, Lalitpur, Nepal</p><a href="https://maps.google.com/?q=Bhanimandal+Lalitpur">GET DIRECTIONS ↗</a></article>
+        <article><span>02 / POKHARA</span><h3>POKHARA</h3><p>New Road, Pokhara, Nepal</p><a href="https://maps.google.com/?q=New+Road+Pokhara">GET DIRECTIONS ↗</a></article>
+        <article><span>03 / CHITWAN</span><h3>CHITWAN</h3><p>Bharatpur, Chitwan, Nepal</p><a href="https://maps.google.com/?q=Bharatpur+Chitwan">GET DIRECTIONS ↗</a></article>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div><span class="service-number">01</span><h3>WORLDWIDE DELIVERY</h3><p>Fast, reliable door-to-door delivery across the globe.</p></div>
+      <div><span class="service-number">02</span><h3>MADE IN NEPAL</h3><p>Proudly designed and made in Nepal with local craftsmanship.</p></div>
+      <div><span class="service-number">03</span><h3>EXCHANGE &amp; REFUND</h3><p>Hassle-free exchanges and refunds if your item arrives damaged.</p></div>
+    </section>
+
+    <section class="social-shopping">
+      <p class="section-label">EFFORTLESS SHOPPING EXPERIENCE</p>
+      <h2>SHOP YOUR STYLE<br>ON SOCIAL</h2>
+      <p>Browse the looks you love and message HUBA on Instagram or Facebook to place an order.</p>
+      <div class="social-links"><a href="https://www.instagram.com/">INSTAGRAM ↗</a><a href="https://www.facebook.com/">FACEBOOK ↗</a></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand"><a href="#"><span class="footer-logo-mark">H</span><span class="footer-logo-name">HUBA</span></a><p>MADE WITH INTENTION.<br>MADE IN NEPAL.</p></div>
+    <div class="footer-columns">
+      <div><h3>ABOUT HUBA</h3><a href="#services">Our Story</a><a href="#stores">Our Stores</a><a href="https://www.hubanepal.com/contact">Contact Us</a></div>
+      <div><h3>SHOP NOW</h3><a href="#new-arrivals">Latest Arrivals</a><a href="#pre-fall">Winter Collection</a><a href="#bottom-wear">Accessories</a><a href="#top-wear">Men Collection</a><a href="#top-wear">Women Collection</a></div>
+      <div><h3>INFORMATION</h3><a href="https://www.hubanepal.com/contact">Shipping Policy</a><a href="https://www.hubanepal.com/contact">Exchange and Refund</a><a href="https://www.hubanepal.com/contact">Terms and Conditions</a><a href="https://www.hubanepal.com/contact">Privacy Policy</a></div>
+      <div><h3>CONTACT</h3><span>Call us</span><a href="tel:+9779703723253">+977 9703723253</a><span>E-mail</span><a href="mailto:hubanepal@gmail.com">hubanepal@gmail.com</a><div class="footer-socials"><a href="https://www.instagram.com/">Instagram ↗</a><a href="https://www.facebook.com/">Facebook ↗</a></div></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 HUBA | UI RECREATION</span><span>NEPAL</span><a href="#">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <div class="notice" aria-live="polite"></div>
+  <script>
+    const menuButton = document.querySelector('.mobile-menu');
+    const navs = document.querySelectorAll('.nav');
+    menuButton.addEventListener('click', () => {
+      navs.forEach(nav => nav.classList.toggle('nav-visible'));
+      menuButton.classList.toggle('active');
+    });
+    document.querySelectorAll('.heart').forEach(button => {
+      button.addEventListener('click', () => {
+        button.classList.toggle('saved');
+        button.textContent = button.classList.contains('saved') ? '♥' : '♡';
+      });
+    });
+    let bagCount = 0;
+    const bagNumber = document.querySelector('.bag-count');
+    const notice = document.querySelector('.notice');
+    document.querySelectorAll('.quick-view').forEach((quickView) => {
+      quickView.addEventListener('click', event => {
+        event.preventDefault();
+        bagCount += 1;
+        bagNumber.textContent = bagCount;
+        notice.textContent = 'Added to your demo bag';
+        notice.classList.add('show');
+        window.setTimeout(() => notice.classList.remove('show'), 1800);
+      });
+    });
+  </script>
+</body>
+</html>
